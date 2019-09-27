@@ -1,0 +1,25 @@
+{
+  "name": "htd-summer-rip",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch scss -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DangerN/HTD-summer-rip.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DangerN/HTD-summer-rip/issues"
+  },
+  "homepage": "https://github.com/DangerN/HTD-summer-rip#readme",
+  "dependencies": {
+    "lite-server": "^2.5.4",
+    "node-sass": "^4.12.0"
+  }
+}
