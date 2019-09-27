@@ -6,3 +6,63 @@ body {
   height: 100%;
   width: 100%;
 }
+
+section {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  > p {
+    font-size: 3rem;
+    position: relative;
+    animation-name: panim;
+    animation-fill-mode: forwards;
+    opacity: 0;
+    left: 4rem;
+    z-index: 1;
+  }
+  > img {
+    position: relative;
+    height: 60%;
+    left: -4rem;
+    animation-name: imganim;
+    animation-fill-mode: forwards;
+    opacity: 0;
+  }
+}
+
+@keyframes panim {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+    left: 0;
+  }
+  75% {
+    opacity: 1
+  }
+  100% {
+    opacity: 0;
+    left:0
+  }
+}
+
+@keyframes imganim {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+    left: 0;
+  }
+  75% {
+    opacity: 1
+  }
+  100% {
+    opacity: 0;
+    left: 0;
+  }
+}
